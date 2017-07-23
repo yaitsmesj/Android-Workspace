@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <TextView
+        android:gravity="right"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/tv_courseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course Name"/>
+    <TextView
+        android:gravity="right"
+        android:id="@+id/tv_courseTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="course Teacher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_batches"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Batches : 2"/>
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_centerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Center : Pitampura"/>
+
+    </LinearLayout>
+
+</LinearLayout>
